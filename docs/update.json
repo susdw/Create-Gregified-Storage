@@ -1,0 +1,8 @@
+{
+    "modId": "create_gs",
+    "version": "1.0.0",
+    "changeNotes": "Created the mod yay!",
+    "downloads": {
+      "direct": "https://susdw.github.io/Create-Gregified-Storage/update.json"
+    }
+}
