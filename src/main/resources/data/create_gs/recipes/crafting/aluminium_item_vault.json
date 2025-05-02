@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "S": {
+      "tag": "forge:screws/aluminium"
+    },
+    "P": {
+      "tag": "forge:plates/aluminium"
+    },
+    "C": {
+      "item": "gtceu:aluminium_crate"
+    }
+  },
+  "pattern": [
+    "SPS",
+    "PCP",
+    "SPS"
+  ],
+  "result": {
+    "item": "create_bs:aluminium_item_vault"
+  },
+  "show_notification": true
+}

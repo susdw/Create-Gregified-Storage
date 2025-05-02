@@ -1,0 +1,16 @@
+
+{
+  "required": true,
+  "minVersion": "0.8",
+  "priority": 1500,
+  "package": "net.sansdw.create_gs.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "create_gs.refmap.json",
+  "mixins": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "client": [
+  ]
+}

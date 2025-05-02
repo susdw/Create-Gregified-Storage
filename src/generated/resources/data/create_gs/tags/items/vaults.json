@@ -1,0 +1,11 @@
+{
+  "values": [
+    "create_bs:copper_item_vault",
+    "create_bs:bronze_item_vault",
+    "create_bs:steel_item_vault",
+    "create_bs:aluminium_item_vault",
+    "create_bs:stainless_steel_item_vault",
+    "create_bs:titanium_item_vault",
+    "create_bs:tungsten_steel_item_vault"
+  ]
+}
