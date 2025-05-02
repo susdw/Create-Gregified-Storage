@@ -12,11 +12,10 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.IForgeRegistry;
 import net.sansdw.create_gs.CreateGS;
 import net.sansdw.create_gs.registry.GSBlocks;
+import static net.sansdw.create_gs.content.TierMaterials.*;
 
 import java.util.Collections;
 import java.util.Objects;
-
-import static net.sansdw.create_gs.content.TierMaterials.*;
 
 @SuppressWarnings({"deprecation", "SameParameterValue"})
 public class GSRegistrateTags {

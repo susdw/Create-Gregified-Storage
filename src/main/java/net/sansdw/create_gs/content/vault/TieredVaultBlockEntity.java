@@ -43,7 +43,7 @@ public class TieredVaultBlockEntity extends SmartBlockEntity implements IMultiBl
         super(type, pos, state);
         this.tierMaterials = tierMaterials;
 
-        inventory = new ItemStackHandler(tierMaterials.capacity) {
+        inventory = new ItemStackHandler(tierMaterials.getCapacity()) {
             @Override
             protected void onContentsChanged(int slot) {
                 super.onContentsChanged(slot);
@@ -239,7 +239,7 @@ public class TieredVaultBlockEntity extends SmartBlockEntity implements IMultiBl
     }
 
     public static int getMaxLength(int radius, TierMaterials tier) {
-        return radius * tier.multiplierLength;
+        return radius * tier.getMultiplierLength();
     }
 
     @Override

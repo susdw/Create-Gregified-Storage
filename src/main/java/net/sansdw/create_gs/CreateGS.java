@@ -15,6 +15,9 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.DistExecutor;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.minecraftforge.fml.ModLoadingContext;
+import net.minecraftforge.fml.config.ModConfig;
+import net.sansdw.create_gs.config.ServerConfig;
 import net.sansdw.create_gs.content.TierMaterials;
 import net.sansdw.create_gs.infrastructure.data.GSDatagen;
 import net.sansdw.create_gs.registry.GSBlockEntities;
@@ -47,6 +50,11 @@ public class CreateGS {
         modEventBus.addListener(this::addCreative);
         modEventBus.addListener(EventPriority.LOWEST, (GatherDataEvent event) -> GSDatagen.gatherData());
         MinecraftForge.EVENT_BUS.register(this);
+
+        ModLoadingContext.get().registerConfig(
+                ModConfig.Type.SERVER,
+                ServerConfig.SERVER_SPEC
+        );
     }
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {

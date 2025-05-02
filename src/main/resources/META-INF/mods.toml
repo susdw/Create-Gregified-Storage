@@ -4,12 +4,14 @@ license="MIT"
 
 [[mods]]
 modId="create_gs"
-version="1.0.0"
+version="${modVersion}"
 displayName="Create: Gregified Storage"
 logoFile="pack.png"
 authors="sansdw"
+credits="Thanks to the Create team, GTCEu developers, and Lopyluna for developing Create: Bigger Storages"
 dependencies="required-after:forge@[47,);required-after:create@[0.5.1.f,);required-after:gtceu@[1.6.0,);"
 displayURL="https://github.com/susdw/Create-Gregified-Storage"
+updateJSONURL="https://susdw.github.io/Create-Gregified-Storage/update.json"
 description='''
 Create: Gregified Storage adds Create-style item vaults to the GregTech mod. Store large amounts of items in a compact space, with the classic GregTech tiered progression. Built for big factories and even bigger storage. Let the Gregification begin!
 '''

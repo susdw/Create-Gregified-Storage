@@ -45,7 +45,7 @@ minecraft {
             arg '-mixin.config=create_gs.mixins.json'
 
             mods {
-                create_bs {
+                create_gs {
                     source sourceSets.main
                 }
             }
@@ -214,6 +214,22 @@ tasks.jarJar.finalizedBy('reobfJarJar')
 
 addLicense(jar)
 addLicense(tasks.jarJar)
+
+processResources {
+    // make Gradle re-run this when the version changes
+    inputs.property 'modVersion', project.version
+    inputs.property "mod_id", project.mod_id
+
+    // look only at your mods.toml
+    filesMatching('META-INF/mods.toml') {
+        // expose a variable named "modVersion" into the file
+        expand modVersion: project.version
+    }
+
+    filesMatching("**/*.json") {
+        expand "mod_id": project.mod_id
+    }
+}
 
 publishing {
     publications {

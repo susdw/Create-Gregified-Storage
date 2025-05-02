@@ -1,11 +1,11 @@
 {
-  "block.create_bs.copper_item_vault": "Copper Item Vault",
-  "block.create_bs.bronze_item_vault": "Bronze Item Vault",
-  "block.create_bs.steel_item_vault": "Steel Item Vault",
-  "block.create_bs.aluminium_item_vault": "Aluminium Item Vault",
-  "block.create_bs.stainless_steel_item_vault": "Stainless Steel Item Vault",
-  "block.create_bs.titanium_item_vault": "Titanium Item Vault",
-  "block.create_bs.tungsten_steel_item_vault": "Tungstensteel Item Vault",
+  "block.create_gs.copper_item_vault": "Copper Item Vault",
+  "block.create_gs.bronze_item_vault": "Bronze Item Vault",
+  "block.create_gs.steel_item_vault": "Steel Item Vault",
+  "block.create_gs.aluminium_item_vault": "Aluminium Item Vault",
+  "block.create_gs.stainless_steel_item_vault": "Stainless Steel Item Vault",
+  "block.create_gs.titanium_item_vault": "Titanium Item Vault",
+  "block.create_gs.tungsten_steel_item_vault": "Tungstensteel Item Vault",
 
-  "tooltip.create_bs.vault.capacity.label": "Capacity: "
+  "tooltip.create_gs.vault.capacity.label": "Capacity: "
 }

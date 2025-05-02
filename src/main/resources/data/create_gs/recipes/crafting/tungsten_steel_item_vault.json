@@ -18,7 +18,7 @@
     "SPS"
   ],
   "result": {
-    "item": "create_bs:tungsten_steel_item_vault"
+    "item": "create_gs:tungsten_steel_item_vault"
   },
   "show_notification": true
 }

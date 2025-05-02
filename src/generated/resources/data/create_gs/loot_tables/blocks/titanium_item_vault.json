@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "create_bs:aluminium_item_vault"
+          "name": "create_gs:titanium_item_vault"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "create_bs:blocks/aluminium_item_vault"
+  "random_sequence": "create_gs:blocks/titanium_item_vault"
 }

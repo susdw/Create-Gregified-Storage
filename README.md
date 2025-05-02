@@ -61,6 +61,12 @@ This project is licensed under the MIT License – see [LICENSE](./LICENSE).
 
 ---
 
+## Credits
+
+> • **Create** – To the Create mod team, for their innovative mechanics and ongoing support.  
+> • **GTCEu** – To the GregTech Community, for building and maintaining the GTCEu framework.  
+> • **Lopyluna** – For the original Create: Bigger Storages mod, which inspired and provided the groundwork for this project.
+
 ## Links
 
 - GitHub: https://github.com/susdw/Create-Gregified-Storage  

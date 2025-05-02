@@ -18,7 +18,7 @@
     "SPS"
   ],
   "result": {
-    "item": "create_bs:stainless_steel_item_vault"
+    "item": "create_gs:stainless_steel_item_vault"
   },
   "show_notification": true
 }

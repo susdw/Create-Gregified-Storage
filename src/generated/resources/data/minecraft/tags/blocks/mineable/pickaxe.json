@@ -1,11 +1,11 @@
 {
   "values": [
-    "create_bs:copper_item_vault",
-    "create_bs:bronze_item_vault",
-    "create_bs:steel_item_vault",
-    "create_bs:aluminium_item_vault",
-    "create_bs:stainless_steel_item_vault",
-    "create_bs:titanium_item_vault",
-    "create_bs:tungsten_steel_item_vault"
+    "create_gs:copper_item_vault",
+    "create_gs:bronze_item_vault",
+    "create_gs:steel_item_vault",
+    "create_gs:aluminium_item_vault",
+    "create_gs:stainless_steel_item_vault",
+    "create_gs:titanium_item_vault",
+    "create_gs:tungsten_steel_item_vault"
   ]
 }

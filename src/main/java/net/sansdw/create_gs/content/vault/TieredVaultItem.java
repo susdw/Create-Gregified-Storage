@@ -37,8 +37,8 @@ public class TieredVaultItem extends BlockItem {
 
         // Add a translated + colored tooltip line
         tooltip.add(Component.literal("")
-                .append(Component.translatable("tooltip.create_bs.vault.capacity.label").withStyle(ChatFormatting.GOLD))
-                .append(Component.literal(String.valueOf(tierMaterials.capacity) + " stacks").withStyle(ChatFormatting.WHITE)));
+                .append(Component.translatable("tooltip.create_gs.vault.capacity.label").withStyle(ChatFormatting.GOLD))
+                .append(Component.literal(String.valueOf(tierMaterials.getCapacity()) + " stacks").withStyle(ChatFormatting.WHITE)));
     }
 
 

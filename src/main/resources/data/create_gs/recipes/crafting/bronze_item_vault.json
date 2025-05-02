@@ -18,7 +18,7 @@
     "SPS"
   ],
   "result": {
-    "item": "create_bs:bronze_item_vault"
+    "item": "${mod_id}:bronze_item_vault"
   },
   "show_notification": true
 }
