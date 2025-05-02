@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "create_gs:tungsten_steel_item_vault"
+          "name": "${mod_id}:tungsten_steel_item_vault"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "create_gs:blocks/tungsten_steel_item_vault"
+  "random_sequence": "${mod_id}:blocks/tungsten_steel_item_vault"
 }

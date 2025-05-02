@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "create_gs:stainless_steel_item_vault"
+          "name": "${mod_id}:stainless_steel_item_vault"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "create_gs:blocks/stainless_steel_item_vault"
+  "random_sequence": "${mod_id}:blocks/stainless_steel_item_vault"
 }

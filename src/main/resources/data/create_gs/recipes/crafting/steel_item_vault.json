@@ -18,7 +18,7 @@
     "SPS"
   ],
   "result": {
-    "item": "create_gs:steel_item_vault"
+    "item": "${mod_id}:steel_item_vault"
   },
   "show_notification": true
 }

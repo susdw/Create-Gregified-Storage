@@ -1,3 +1,3 @@
 {
-  "parent": "create_gs:block/stainless_steel_item_vault"
+  "parent": "${mod_id}:block/stainless_steel_item_vault"
 }
