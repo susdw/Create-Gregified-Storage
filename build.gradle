@@ -21,7 +21,7 @@ apply plugin: 'org.spongepowered.mixin'
 
 jarJar.enable()
 
-group = 'net.lopyluna.create_gs'
+group = 'net.sansdw.create_gs'
 archivesBaseName = "Create-Gregified-Storage-Forge-${minecraft_version}"
 version = mod_version
 
