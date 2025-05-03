@@ -3,7 +3,6 @@ package net.sansdw.create_gs.content;
 import com.tterrag.registrate.util.entry.BlockEntry;
 import net.minecraft.world.level.block.Block;
 import org.jetbrains.annotations.NotNull;
-
 import java.util.*;
 import java.util.function.Function;
 

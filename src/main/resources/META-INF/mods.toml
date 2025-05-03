@@ -19,7 +19,7 @@ Create: Gregified Storage adds Create-style item vaults to the GregTech mod. Sto
 [[dependencies.create_gs]]
     modId="forge"
     mandatory=true
-    versionRange="[47,)"
+    versionRange="[47.1.43,)"
     ordering="NONE"
     side="BOTH"
 
@@ -33,13 +33,13 @@ Create: Gregified Storage adds Create-style item vaults to the GregTech mod. Sto
 [[dependencies.create_gs]]
     modId="create"
     mandatory=true
-    versionRange="[0.5.1.f,)"
+    versionRange="[6.0.0,6.1.0)"
     ordering="AFTER"
     side="BOTH"
 
 [[dependencies.create_gs]]
     modId="gtceu"
     mandatory=true
-    versionRange="[1.6.0,)"
+    versionRange="[1.6.0,1.6.4]"
     ordering="AFTER"
     side="BOTH"

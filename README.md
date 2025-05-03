@@ -16,7 +16,7 @@
 
 1. **Forge**: Minecraft 1.20.1, Forge 47.1.43 or later.  
 2. **Dependencies**:  
-   - Create 1.20.1-0.5.1f or later.  
+   - Create 1.20.1-6.0.0 or later.  
    - GTCEu 1.20.1-1.6.0 or later.   
 3. **Drop** `create_gs-<version>.jar` into your `mods/` folder.  
 4. Launch Minecraft.
@@ -39,7 +39,7 @@ Press **W** (default Ponder key) while hovering over a vault in Creative or inâ€
 
 ## Configuration
 
-No custom settingsâ€”this mod uses defaults. Future versions may include config options for capacities or recipes.
+This mod adds a server-side configuration file for vault capacities. It can be accessed at `<your-world-folder>/serverconfig/create_gs-server.toml`. You can also change the default config for every world at `<your-minecraft-folder>/defaultconfigs/create_gs-server.toml`.
 
 ---
 
