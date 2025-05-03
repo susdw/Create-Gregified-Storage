@@ -1,8 +1,8 @@
 {
     "modId": "create_gs",
-    "version": "1.0.0",
-    "changeNotes": "Created the mod yay!",
+    "version": "1.0.1",
+    "changeNotes": "Added server-configuration files to change lengthMultipliers and capacity from the item vaults.",
     "downloads": {
-      "direct": "https://susdw.github.io/Create-Gregified-Storage/update.json"
+      "direct": "https://github.com/susdw/Create-Gregified-Storage/releases/tag/1.0.1"
     }
 }
